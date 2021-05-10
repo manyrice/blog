@@ -38,22 +38,32 @@ a {
   box-sizing: border-box;
 }
 
+.con {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* 라이브러리 끝 */
 
 /* 커스텀 시작 */
+.con {
+  width: 1200px;
+  border: 1px solid red;
+}
+
 .top-bar {
   background-color: lightslategray;
 }
 
-.top-bar>div:first-child {
+.top-bar>.con>div:first-child {
   width: 245px;
 }
 
-.top-bar>div:nth-child(2) {
+.top-bar>.con>div:nth-child(2) {
   width: calc(100% - 245px - 589px);
 }
 
-.top-bar>div:last-child {
+.top-bar>.con>div:last-child {
   width: 589px;
 }
 
