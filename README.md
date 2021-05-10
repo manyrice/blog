@@ -1,3 +1,3 @@
 # blog
 블로그
-ㅎㅅㅎ
+https://manyrice.github.io/blog/
