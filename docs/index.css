@@ -38,6 +38,10 @@ a {
   box-sizing: border-box;
 }
 
+.block {
+  display: block;
+}
+
 .con {
   margin-right: auto;
   margin-left: auto;
@@ -71,10 +75,6 @@ a {
   padding: 10px;
 }
 
-.block {
-  display: block;
-}
-
 .top-bar__menu-box>ul>li {
   font-size: 16px;
   letter-spacing: 1px;
@@ -102,5 +102,14 @@ a {
 }
 
 .top-bar__menu-box>ul>li:hover>ul {
+  display: block;
+}
+
+.work-list-box>ul>li{
+  width: 33%;
+}
+
+.work-list-box>ul>li>img{
+  width: 100%;
   display: block;
 }
