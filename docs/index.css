@@ -42,6 +42,12 @@ a {
   display: block;
 }
 
+.img-box>img {
+  width: 100%;
+  display: block;
+  border: 1px solid black;
+}
+
 .con {
   margin-right: auto;
   margin-left: auto;
@@ -63,11 +69,11 @@ a {
 }
 
 .top-bar>.con>div:nth-child(2) {
-  width: calc(100% - 245px - 589px);
+  width: calc(100% - 245px - 588.5px);
 }
 
 .top-bar>.con>div:last-child {
-  width: 589px;
+  width: 588.5px;
 }
 
 .top-bar__logo {
@@ -106,10 +112,5 @@ a {
 }
 
 .work-list-box>ul>li {
-  width: 33%;
-}
-
-.work-list-box>ul>li>img {
-  width: 100%;
-  display: block;
+  width: calc(100% / 3);
 }
