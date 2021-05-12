@@ -105,11 +105,11 @@ a {
   display: block;
 }
 
-.work-list-box>ul>li{
+.work-list-box>ul>li {
   width: 33%;
 }
 
-.work-list-box>ul>li>img{
+.work-list-box>ul>li>img {
   width: 100%;
   display: block;
 }
